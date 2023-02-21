@@ -1,0 +1,24 @@
+.places__image {
+  max-width: 460px;
+  grid-area: places__image;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1024px) {
+  .places__image {
+  max-width: calc(440px + (460 - 440) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width:768px) {
+  .places__image {
+  max-width: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width:320px) {
+  .places__image {
+  max-width: calc(320px + (340 - 320) * ((100vw - 320px) / (768 - 320)));
+  }
+}

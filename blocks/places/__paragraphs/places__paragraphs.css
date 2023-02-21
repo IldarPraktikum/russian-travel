@@ -1,0 +1,24 @@
+.places__paragraphs {
+  grid-area: places__paragraphs;
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+}
+
+@media screen and (max-width:1024px) {
+  .places__paragraphs {
+  max-width: calc(456px + (484 - 456) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width:768px) {
+  .places__paragraphs {
+  max-width: calc(352px + (456 - 352) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width:320px) {
+  .places__paragraphs {
+  max-width: calc(288px + (352 - 288) * ((100vw - 320px) / (768 - 320)));
+  }
+}

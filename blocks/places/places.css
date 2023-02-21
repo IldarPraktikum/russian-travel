@@ -1,0 +1,27 @@
+.places {
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 92px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1024px) {
+  .places {
+  max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width:768px) {
+  .places {
+  max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+  padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .places {
+  max-width: calc(320px + (720 - 320) * ((100vw - 320px) / (768 - 320)));
+  padding-bottom: 66px;
+  }
+}
