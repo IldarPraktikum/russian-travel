@@ -9,7 +9,7 @@
 @media screen and (max-width:1024px) {
   .places {
   padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
-  padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+  padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 
@@ -17,7 +17,7 @@
   .places {
   padding-bottom: 90px;
   padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-  padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
