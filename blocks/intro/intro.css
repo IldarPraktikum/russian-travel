@@ -1,25 +1,26 @@
-.into {
-  display: flex;
-  flex-direction: column;
+.intro {
+  display: grid;
   max-width: 690px;
   padding-left: 148px;
+  grid-template-columns: minmax(min-content, max-content);
+  align-content: center;
 }
 
 @media screen and (max-width:1024px) {
-  .into {
+  .intro {
   padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 
 @media screen and (max-width:768px) {
-  .into {
+  .intro {
   max-width: calc(690px + (720 - 690) * ((100vw - 768px) / (1024 - 768)));
   padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media screen and (max-width:320px) {
-  .into {
+  .intro {
   max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
   padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
   }

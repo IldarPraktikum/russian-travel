@@ -8,20 +8,24 @@
 
 @media screen and (max-width:1024px) {
   .places {
-  max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+  padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+  padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 
 @media screen and (max-width:768px) {
   .places {
-  max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
   padding-bottom: 90px;
+  padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media screen and (max-width:320px) {
   .places {
-  max-width: calc(320px + (720 - 320) * ((100vw - 320px) / (768 - 320)));
   padding-bottom: 66px;
+  padding-left: 0px;
+  padding-right: 0px;
   }
 }
+

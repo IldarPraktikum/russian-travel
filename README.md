@@ -4,4 +4,4 @@
 
 В проекте используется адаптивная верстка. Использовал гриды, формулы calc, относительные значения размеров элементов.
 
-https://github.com/IldarPraktikum/russian-travel
+https://ildarpraktikum.github.io/russian-travel/

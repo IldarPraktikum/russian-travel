@@ -4,11 +4,19 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 18px;
+}
+
+@media screen and (max-width:765px) {
+  .footer__links {
+  flex-direction: column;
+  margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width:320px) {
   .footer__links {
-  flex-direction: column;
   margin-bottom: 48px;
+  gap: 33px;
   }
 }

@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width:530px) {
+  .places__website {
+  padding-left: 16px;
+  padding-right: 16px;
+  }
+}
