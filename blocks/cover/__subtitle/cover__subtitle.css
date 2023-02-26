@@ -7,7 +7,7 @@
   margin: 0 auto;
   padding-top: 32px;
   color: #FFFFFF;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (max-width:550px) {
@@ -21,6 +21,6 @@
   .cover__subtitle {
   min-width: calc(288px + (360 - 288) * ((100vw - 320px) / (768 - 320)));
   text-align: center;
-  
+
   }
 }
