@@ -1,11 +1,9 @@
 .places__website {
-  grid-area: places__website;
-  margin: 0;
-  padding: 0;
+  align-self: self-end;
 }
 
 @media screen and (max-width:530px) {
-  .places__website {
+.places__website {
   padding-left: 16px;
   padding-right: 16px;
   }

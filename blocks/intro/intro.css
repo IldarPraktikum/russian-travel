@@ -2,6 +2,7 @@
   display: grid;
   max-width: 690px;
   padding-left: 148px;
+  padding-bottom: 92px;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
 }
@@ -16,6 +17,7 @@
   .intro {
   max-width: calc(690px + (720 - 690) * ((100vw - 768px) / (1024 - 768)));
   padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  padding-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
@@ -23,5 +25,6 @@
   .intro {
   max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
   padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+  padding-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
   }
 }

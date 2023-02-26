@@ -1,9 +1,6 @@
 .places__paragraphs {
-  grid-area: places__paragraphs;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 484px;
-  align-self: start;
+  margin: 0;
 }
+
 
 

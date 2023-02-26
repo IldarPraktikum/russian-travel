@@ -1,7 +1,4 @@
-.header__lang-link_active:hover {
-  border-bottom: 3px solid white;
-} /*сделал чтобы при наведении ссылка подчеркивалась*/
-
-.header__lang-link_active:active {
-  color: red;
+.header__lang-link_active {
+  text-decoration: underline;
 }
+

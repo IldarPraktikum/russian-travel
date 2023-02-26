@@ -1,15 +1,18 @@
 .section {
-  padding: 0 48px;
+  padding-right: 48px;
+  padding-left: 48px;
 }
 
 @media screen and (max-width:768px) {
   .section {
-  padding: 0 24px;
+  padding-left: calc(48px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  padding-right: calc(48px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media screen and (max-width:320px) {
   .section {
-  padding: 0 16px;
+  padding-left: calc(16px + (24 - 24) * ((100vw - 320px) / (768 - 320)));
+  padding-right: calc(16px + (24 - 24) * ((100vw - 320px) / (768 - 320)));
   }
 }

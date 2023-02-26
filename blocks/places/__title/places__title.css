@@ -2,29 +2,23 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
-  grid-area: places__title;
   margin: 0;
   padding: 0;
-  max-width: 460px;
 }
 
 @media screen and (max-width:768px) {
-  .places__title {
+.places__title {
   font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
+  padding: 0 10px 0 0; /*чтобы коса перенеслась*/
   }
 }
 
-@media screen and (max-width:700px) {
-  .places__title {
+@media screen and (max-width:725px) {
+.places__title {
   font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
-  justify-self:start;
-  align-self: start;
-  }
-}
-
-@media screen and (max-width:530px) {
-  .places__title {
   padding-left: 16px;
   padding-right: 16px;
   }
 }
+
+

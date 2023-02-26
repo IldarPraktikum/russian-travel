@@ -11,20 +11,19 @@
 @media screen and (max-width:1024px) {
   .lead__image {
   max-width: 927px;
-  padding-top: calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
+  padding: 56px 0 0 0;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__image {
   max-width: 768px;
-  padding: 56px 0 0 0;
   }
 }
 
-*@media screen and (max-width:320px) {
+@media screen and (max-width:320px) {
   .lead__image {
-  padding-top: calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
+  max-width: 320px;
+  padding: 40px 0 0 0;
   }
 }
-
