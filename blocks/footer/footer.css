@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width:802px) {
+@media screen and (max-width:825px) {
   .footer {
   padding: 88px 24px 24px 24px;
   }
