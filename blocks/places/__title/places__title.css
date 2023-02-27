@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:840px) {
 .places__title {
   font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
   padding: 0 10px 0 0; /*чтобы коса перенеслась*/
